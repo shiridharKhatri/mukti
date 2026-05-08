@@ -180,28 +180,6 @@ body.menu-open {
     transform: scale(1.05);
 }
 
-/* Stats Polish */
-.stat-box {
-    display: flex;
-    gap: 4rem;
-    margin-top: 4rem;
-}
-
-.stat-item h3 {
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 1;
-    margin-bottom: 0.75rem;
-}
-
-.stat-item p {
-    font-size: 0.8rem;
-    font-weight: 700;
-    color: var(--text-gray);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
-
 /* Portfolio Grid */
 .portfolio-header {
     text-align: center;
@@ -365,21 +343,6 @@ body.menu-open {
     max-width: 500px;
 }
 
-.education-right {
-    text-align: right;
-}
-
-.education-year {
-    font-size: 4rem;
-    font-weight: 900;
-    line-height: 1;
-}
-
-.education-status {
-    font-weight: 700;
-    color: var(--text-gray);
-}
-
 /* Utils */
 .flex-center {
     display: flex;
@@ -457,10 +420,6 @@ body.menu-open {
         margin: 0 auto 2rem;
     }
 
-    .stat-box {
-        justify-content: center;
-    }
-
     .hero-image-container {
         height: 500px;
         margin-top: 2rem;
@@ -533,10 +492,7 @@ body.menu-open {
         font-size: 3.5rem;
     }
 
-    .stat-box {
-        gap: 2rem;
-        flex-wrap: wrap;
-    }
+
 
     .portfolio-grid {
         grid-template-columns: 1fr;
@@ -571,9 +527,7 @@ body.menu-open {
         gap: 3rem;
     }
 
-    .education-right {
-        text-align: center;
-    }
+
 
     .education-title {
         font-size: 2.5rem;
@@ -610,14 +564,6 @@ body.menu-open {
 
     .portfolio-title {
         font-size: 2.5rem;
-    }
-
-    .stat-item h3 {
-        font-size: 2.5rem;
-    }
-
-    .education-year {
-        font-size: 3rem;
     }
 
     .footer-title {
