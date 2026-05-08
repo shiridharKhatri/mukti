@@ -294,18 +294,20 @@ body.menu-open {
 }
 
 .reflection-grid {
-    display: grid;
-    grid-template-columns: 1fr 1.2fr;
-    gap: 6rem;
-    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .reflection-title {
-    font-size: 5rem;
-    line-height: 1;
+    font-size: 4.5rem;
+    line-height: 1.1;
     font-weight: 900;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     color: var(--text-dark);
+    text-align: center;
 }
 
 .reflection-intro {
@@ -313,21 +315,25 @@ body.menu-open {
     line-height: 1.7;
     color: var(--text-gray);
     margin-bottom: 2rem;
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .reflection-box {
     background: var(--bg-white);
-    padding: 6rem;
-    border-radius: 48px;
+    padding: 3.5rem;
+    border-radius: 40px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.03);
     border: 1px solid rgba(0, 0, 0, 0.02);
-    font-size: 1.15rem;
-    line-height: 2;
+    font-size: 1.1rem;
+    line-height: 1.7;
     color: var(--text-gray);
 }
 
 .reflection-box p+p {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 /* Education */
@@ -450,7 +456,7 @@ body.menu-open {
     .hero-sub {
         margin: 0 auto 2rem;
     }
-    
+
     .stat-box {
         justify-content: center;
     }
@@ -465,8 +471,7 @@ body.menu-open {
     }
 
     .reflection-grid {
-        grid-template-columns: 1fr;
-        gap: 4rem;
+        gap: 3rem;
     }
 
     .reflection-title {
@@ -486,7 +491,7 @@ body.menu-open {
     section {
         padding: 80px 0;
     }
-    
+
     .nav-container {
         flex-direction: row;
         justify-content: space-between;
@@ -532,7 +537,7 @@ body.menu-open {
         gap: 2rem;
         flex-wrap: wrap;
     }
-    
+
     .portfolio-grid {
         grid-template-columns: 1fr;
     }
@@ -540,7 +545,7 @@ body.menu-open {
     .portfolio-card-featured {
         grid-column: span 1;
     }
-    
+
     .portfolio-card-featured .card-img-wrapper {
         height: 300px;
     }
@@ -569,7 +574,7 @@ body.menu-open {
     .education-right {
         text-align: center;
     }
-    
+
     .education-title {
         font-size: 2.5rem;
     }
@@ -597,7 +602,7 @@ body.menu-open {
     .hero-text h1 {
         font-size: 2.5rem;
     }
-    
+
     .hero-image-container {
         height: 350px;
         border-radius: 40px;
@@ -614,7 +619,7 @@ body.menu-open {
     .education-year {
         font-size: 3rem;
     }
-    
+
     .footer-title {
         font-size: 2.5rem;
     }
